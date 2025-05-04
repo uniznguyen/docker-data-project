@@ -1,0 +1,86 @@
+# Docker volumes
+postgres_data/
+pgadmin_data/
+hrtrainingform_data/
+hrtrainingform_certificates/
+hrtrainingform_db/
+
+# Data files
+*/data/*.json
+*/db/
+
+# Credentials and secrets
+.env
+*.env
+**/credentials/
+**/secrets/
+
+# Certificates
+**/certificates/
+!**/certificates/.gitkeep
+
+# Logs
+*/logs/
+*.log
+dbt/logs/
+
+# Generated files - DBT
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/*.pickle
+dbt/manifest.json
+dbt/run_results.json
+dbt/partial_parse.msgpack
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.python-version
+
+# Virtual Environment
+venv/
+ENV/
+.venv/
+.env/
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Airflow
+airflow/*.pid
+airflow/*.err
+airflow/logs/
+
+# Lock files and package management
+*.lock
+!uv.lock
+yarn-error.log

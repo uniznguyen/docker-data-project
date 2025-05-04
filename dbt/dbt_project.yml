@@ -1,0 +1,17 @@
+name: docker_data_project
+version: 1.0.0
+profile: my_project
+
+# Directory paths
+target-path: target
+clean-targets:
+  - target
+
+# Model configurations
+models:
+  docker_data_project:
+    example:
+      materialized: view
+      tags:
+        - example
+      description: "This model is an example for dbt project."

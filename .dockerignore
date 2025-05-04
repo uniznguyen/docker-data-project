@@ -1,0 +1,50 @@
+# Ignore the Python cache files
+__pycache__/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the Dockerfile and docker-compose.yml files
+Dockerfile
+docker-compose.yml
+
+# Ignore the logs directory
+logs/
+
+# Ignore any local configuration files
+*.local
+
+# Ignore any .env files
+.env
+
+# Ignore any other temporary files
+*.tmp
+*.temp
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore pytest cache
+.pytest_cache
+
+# Ignore virtual environment directory
+.venv
+
+# Ignore markdown files except README.md
+*.md
+!README.md
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Airflow logs
+airflow/logs
+
+# Ignore dbt directories
+dbt/target
+dbt/dbt_modules
+dbt/logs
