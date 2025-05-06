@@ -1,0 +1,3 @@
+[submodule "hrtrainingform"]
+	path = hrtrainingform
+	url = https://github.com/uniznguyen/hrtrainingform.git
